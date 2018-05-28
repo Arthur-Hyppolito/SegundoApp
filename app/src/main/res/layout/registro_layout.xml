@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cor1"
+    android:paddingTop="120dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="br.senac.sp.l13.segundoapp.Login_Activity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fullname"
+        android:background="@color/cor2"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail"
+        android:background="@color/cor2"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cor2"
+        android:hint="@string/password"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/cortext"
+        android:background="@color/cor3"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cortext"
+        android:text="@string/already_registred"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+
+
+
+
+</LinearLayout>

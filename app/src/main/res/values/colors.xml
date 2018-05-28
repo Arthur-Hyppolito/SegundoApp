@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="corFundo">#64ab82</color>
+    <color name="corFonte">#a9a2a2</color>
+    <color name="cortext">#ffffff</color>
+    <color name="cor1">#313131</color>
+    <color name="cor2">#767373</color>
+    <color name="cor3">#ba2575</color>
+
+</resources>
